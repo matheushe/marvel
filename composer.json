@@ -2,6 +2,7 @@
     "autoload": {
         "psr-4": {
             "Controllers\\": "src/app/controller",
+            "Models\\": "src/app/model",
             "CoffeeCode\\Router\\": "router"
         }
     },
