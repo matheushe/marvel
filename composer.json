@@ -1,0 +1,11 @@
+{
+    "autoload": {
+        "psr-4": {
+            "Controllers\\": "src/app/controller",
+            "CoffeeCode\\Router\\": "router"
+        }
+    },
+    "require": {
+        "bramus/router": "^1.5"
+    }
+}
