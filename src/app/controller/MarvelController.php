@@ -14,7 +14,7 @@ class MarvelController
 
     public static function show($id)
     {
-        echo json_encode((new Marvel)->findById($id));
+        echo json_encode((new Marvel)->findById($id) ?? []);
     }
 
     public static function getComics($id)
